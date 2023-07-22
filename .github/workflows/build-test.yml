@@ -1,0 +1,35 @@
+name: 🔨 Build Test
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:  
+  build:
+    name: Test Builds
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.19
+
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Test
+        run: go test .
+        working-directory: cmd/notify/
+
+      - name: Build
+        run: go build .
+        working-directory: cmd/notify/
+  
+      - name: Integration Tests
+        env: 
+          DISCORD_WEBHOOK_URL: "${{ secrets.DISCORD_WEBHOOK_URL }}"
+          SLACK_WEBHOOK_URL: "${{ secrets.SLACK_WEBHOOK_URL }}"
+          CUSTOM_WEBHOOK_URL: "${{ secrets.CUSTOM_WEBHOOK_URL }}"
+        run: |
+          chmod +x action-run.sh
+          bash action-run.sh
+        working-directory: cmd/integration-test/
