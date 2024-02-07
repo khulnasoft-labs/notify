@@ -4,12 +4,12 @@ import (
 	"errors"
 	"os"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/gologger/formatter"
-	"github.com/khulnasoft-labs/gologger/levels"
-	"github.com/khulnasoft-labs/notify/pkg/types"
-	fileutil "github.com/khulnasoft-labs/utils/file"
-	updateutils "github.com/khulnasoft-labs/utils/update"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/gologger/formatter"
+	"github.com/khulnasoft-lab/gologger/levels"
+	"github.com/khulnasoft-lab/notify/pkg/types"
+	fileutil "github.com/khulnasoft-lab/utils/file"
+	updateutils "github.com/khulnasoft-lab/utils/update"
 )
 
 // ParseOptions parses the command line flags provided by a user

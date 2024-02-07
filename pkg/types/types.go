@@ -1,6 +1,6 @@
 package types
 
-import "github.com/khulnasoft-labs/goflags"
+import "github.com/khulnasoft-lab/goflags"
 
 type Options struct {
 	Verbose        bool                `yaml:"verbose,omitempty"`

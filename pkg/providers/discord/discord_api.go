@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/khulnasoft-labs/notify/pkg/utils/httpreq"
+	"github.com/khulnasoft-lab/notify/pkg/utils/httpreq"
 )
 
 func (options *Options) SendThreaded(message string) error {

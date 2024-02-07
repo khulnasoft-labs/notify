@@ -7,7 +7,7 @@ import (
 
 	"github.com/logrusorgru/aurora"
 
-	"github.com/khulnasoft-labs/notify/internal/testutils"
+	"github.com/khulnasoft-lab/notify/internal/testutils"
 )
 
 var (

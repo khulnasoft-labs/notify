@@ -8,9 +8,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/pkg/utils"
-	sliceutil "github.com/khulnasoft-labs/utils/slice"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/pkg/utils"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 )
 
 var reDiscordWebhook = regroup.MustCompile(`(?P<scheme>https?):\/\/(?P<domain>(?:ptb\.|canary\.)?discord(?:app)?\.com)\/api(?:\/)?(?P<api_version>v\d{1,2})?\/webhooks\/(?P<webhook_identifier>\d{17,19})\/(?P<webhook_token>[\w\-]{68})`)

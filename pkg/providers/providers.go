@@ -5,17 +5,17 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/pkg/providers/custom"
-	"github.com/khulnasoft-labs/notify/pkg/providers/discord"
-	"github.com/khulnasoft-labs/notify/pkg/providers/googlechat"
-	"github.com/khulnasoft-labs/notify/pkg/providers/pushover"
-	"github.com/khulnasoft-labs/notify/pkg/providers/slack"
-	"github.com/khulnasoft-labs/notify/pkg/providers/smtp"
-	"github.com/khulnasoft-labs/notify/pkg/providers/teams"
-	"github.com/khulnasoft-labs/notify/pkg/providers/telegram"
-	"github.com/khulnasoft-labs/notify/pkg/types"
-	sliceutil "github.com/khulnasoft-labs/utils/slice"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/pkg/providers/custom"
+	"github.com/khulnasoft-lab/notify/pkg/providers/discord"
+	"github.com/khulnasoft-lab/notify/pkg/providers/googlechat"
+	"github.com/khulnasoft-lab/notify/pkg/providers/pushover"
+	"github.com/khulnasoft-lab/notify/pkg/providers/slack"
+	"github.com/khulnasoft-lab/notify/pkg/providers/smtp"
+	"github.com/khulnasoft-lab/notify/pkg/providers/teams"
+	"github.com/khulnasoft-lab/notify/pkg/providers/telegram"
+	"github.com/khulnasoft-lab/notify/pkg/types"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 )
 
 // ProviderOptions is configuration for notify providers

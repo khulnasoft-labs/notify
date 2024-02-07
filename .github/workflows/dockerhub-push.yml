@@ -17,7 +17,7 @@ jobs:
       - name: Get Github tag
         id: meta
         run: |
-          curl --silent "https://api.github.com/repos/khulnasoft-labs/notify/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
+          curl --silent "https://api.github.com/repos/khulnasoft-lab/notify/releases/latest" | jq -r .tag_name | xargs -I {} echo TAG={} >> $GITHUB_OUTPUT
           
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -38,4 +38,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64,linux/arm
           push: true
-          tags: khulnasoft-labs/notify:latest,khulnasoft-labs/notify:${{ steps.meta.outputs.tag }}
+          tags: khulnasoft-lab/notify:latest,khulnasoft-lab/notify:${{ steps.meta.outputs.tag }}

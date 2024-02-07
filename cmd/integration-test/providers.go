@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/khulnasoft-labs/notify/internal/testutils"
+	"github.com/khulnasoft-lab/notify/internal/testutils"
 )
 
 func run(provider string) error {

@@ -6,12 +6,12 @@
 
 <p align="center">
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-_red.svg"></a>
-<a href="https://github.com/khulnasoft-labs/notify/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://goreportcard.com/badge/github.com/khulnasoft-labs/notify"><img src="https://goreportcard.com/badge/github.com/khulnasoft-labs/notify"></a>
-<a href="https://github.com/khulnasoft-labs/notify/releases"><img src="https://img.shields.io/github/release/khulnasoft-labs/notify"></a>
-<a href="https://hub.docker.com/r/khulnasoft-labs/notify"><img src="https://img.shields.io/docker/pulls/khulnasoft-labs/notify.svg"></a>
+<a href="https://github.com/khulnasoft-lab/notify/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://goreportcard.com/badge/github.com/khulnasoft-lab/notify"><img src="https://goreportcard.com/badge/github.com/khulnasoft-lab/notify"></a>
+<a href="https://github.com/khulnasoft-lab/notify/releases"><img src="https://img.shields.io/github/release/khulnasoft-lab/notify"></a>
+<a href="https://hub.docker.com/r/khulnasoft-lab/notify"><img src="https://img.shields.io/docker/pulls/khulnasoft-lab/notify.svg"></a>
 <a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
-<a href="https://discord.gg/khulnasoft-labs"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
+<a href="https://discord.gg/khulnasoft-lab"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
   <a href="#usage">Usage</a> •
   <a href="#running-notify">Running Notify</a> •
   <a href="#notes">Notes</a> •
-  <a href="https://discord.gg/khulnasoft-labs">Join Discord</a>
+  <a href="https://discord.gg/khulnasoft-lab">Join Discord</a>
 </p>
 
 
@@ -75,7 +75,7 @@ This will display help for the tool. Here are all the switches it supports.
 # Notify Installation
 
 ```sh
-go install -v github.com/khulnasoft-labs/notify/cmd/notify@latest
+go install -v github.com/khulnasoft-lab/notify/cmd/notify@latest
 ```
 
 ### Provider Config
@@ -221,7 +221,7 @@ subfinder -d hackerone.com -o h1.txt; notify -data h1.txt -bulk -id recon,vulns,
 
 ### Example Uses
 
-Following command will enumerate subdomains using [SubFinder](https://github.com/khulnasoft-labs/subfinder) and probe alive URLs using [httpx](https://github.com/khulnasoft-labs/httpx), runs [Nuclei](https://github.com/khulnasoft-labs/nuclei) templates and send the nuclei results as a notifications to configured provider/s.
+Following command will enumerate subdomains using [SubFinder](https://github.com/khulnasoft-lab/subfinder) and probe alive URLs using [httpx](https://github.com/khulnasoft-lab/httpx), runs [Nuclei](https://github.com/khulnasoft-lab/nuclei) templates and send the nuclei results as a notifications to configured provider/s.
 
 
 ```sh
@@ -255,4 +255,4 @@ Notify flags can be configured at default config (`$HOME/.config/notify/config.y
 - [Creating Telegram bot](https://core.telegram.org/bots#3-how-do-i-create-a-bot)
 - [Creating Pushover Token](https://github.com/containrrr/shoutrrr/blob/main/docs/services/pushover.md)
 
-Notify is made with 🖤 by the [khulnasoft-labs](https://khulnasoft-labs.io) team.
+Notify is made with 🖤 by the [khulnasoft-lab](https://khulnasoft-lab.io) team.

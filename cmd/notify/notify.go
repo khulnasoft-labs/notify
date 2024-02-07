@@ -6,10 +6,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/khulnasoft-labs/goflags"
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/internal/runner"
-	"github.com/khulnasoft-labs/notify/pkg/types"
+	"github.com/khulnasoft-lab/goflags"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/internal/runner"
+	"github.com/khulnasoft-lab/notify/pkg/types"
 )
 
 var (

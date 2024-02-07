@@ -15,11 +15,11 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/pkg/providers"
-	"github.com/khulnasoft-labs/notify/pkg/types"
-	"github.com/khulnasoft-labs/notify/pkg/utils"
-	fileutil "github.com/khulnasoft-labs/utils/file"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/pkg/providers"
+	"github.com/khulnasoft-lab/notify/pkg/types"
+	"github.com/khulnasoft-lab/notify/pkg/utils"
+	fileutil "github.com/khulnasoft-lab/utils/file"
 )
 
 // Runner contains the internal logic of the program

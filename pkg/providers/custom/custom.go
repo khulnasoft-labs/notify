@@ -12,10 +12,10 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/pkg/utils"
-	"github.com/khulnasoft-labs/notify/pkg/utils/httpreq"
-	sliceutil "github.com/khulnasoft-labs/utils/slice"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/pkg/utils"
+	"github.com/khulnasoft-lab/notify/pkg/utils/httpreq"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 )
 
 type Provider struct {

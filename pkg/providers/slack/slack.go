@@ -9,9 +9,9 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/multierr"
 
-	"github.com/khulnasoft-labs/gologger"
-	"github.com/khulnasoft-labs/notify/pkg/utils"
-	sliceutil "github.com/khulnasoft-labs/utils/slice"
+	"github.com/khulnasoft-lab/gologger"
+	"github.com/khulnasoft-lab/notify/pkg/utils"
+	sliceutil "github.com/khulnasoft-lab/utils/slice"
 )
 
 type Provider struct {
