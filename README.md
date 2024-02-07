@@ -10,7 +10,7 @@
 <a href="https://goreportcard.com/badge/github.com/khulnasoft-lab/notify"><img src="https://goreportcard.com/badge/github.com/khulnasoft-lab/notify"></a>
 <a href="https://github.com/khulnasoft-lab/notify/releases"><img src="https://img.shields.io/github/release/khulnasoft-lab/notify"></a>
 <a href="https://hub.docker.com/r/khulnasoft-lab/notify"><img src="https://img.shields.io/docker/pulls/khulnasoft-lab/notify.svg"></a>
-<a href="https://twitter.com/pdiscoveryio"><img src="https://img.shields.io/twitter/follow/pdiscoveryio.svg?logo=twitter"></a>
+<a href="https://twitter.com/khulnasoft"><img src="https://img.shields.io/twitter/follow/khulnasoft.svg?logo=twitter"></a>
 <a href="https://discord.gg/khulnasoft-lab"><img src="https://img.shields.io/discord/695645237418131507.svg?logo=discord"></a>
 </p>
 
